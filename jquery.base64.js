@@ -60,9 +60,9 @@
  
 jQuery.base64 = ( function( $ ) {
   
-  var _PADCHAR = "=",
-    _ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
-    _VERSION = "1.0";
+  var _PADCHAR = "_",
+    _ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-",
+    _VERSION = "1.1";
 
 
   function _getbyte64( s, i ) {
